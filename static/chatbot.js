@@ -285,5 +285,5 @@ function reset(event) {
 
 function info(event) {
     event.preventDefault();
-    alert("Role\n" + session.role + "\nContext\n" + session.context);
+    alert("Elvinia hört dir zu, ist einfühlsam und will mit dir eine angenehme Zeit verbringen. \nOben links kannst du jederzeit den Chat von vorne beginnen.");
 }
