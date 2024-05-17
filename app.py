@@ -2,8 +2,16 @@ from flask import Flask, jsonify, render_template, request
 
 from chatbot.chatbot import Chatbot
 
+# # backend/main.py
+# from fastapi import Depends, FastAPI, HTTPException
+# from pydantic import BaseModel
+# import sqlite3
+# from fastapi.middleware.cors import CORSMiddleware
+# import secrets
+
 PYTHONANYWHERE_USERNAME = "sonahskku"
 PYTHONANYWHERE_WEBAPPNAME = "mysite"
+MYDIR = "/Users/sonah/Library/CloudStorage/OneDrive-ZHAW/AI/kr-trip-planner-AI/"
 
 app = Flask(__name__)
 
@@ -21,10 +29,7 @@ def chatbot(type_id: str, user_id: str):
 @app.route("/<type_id>/<user_id>/info")
 def info_retrieve(type_id: str, user_id: str):
     bot: Chatbot = Chatbot(
-        database_file="/home/"
-        + PYTHONANYWHERE_USERNAME
-        + "/"
-        + PYTHONANYWHERE_WEBAPPNAME
+        database_file=MYDIR
         + "/database/chatbot.db",
         type_id=type_id,
         user_id=user_id,
@@ -36,10 +41,7 @@ def info_retrieve(type_id: str, user_id: str):
 @app.route("/<type_id>/<user_id>/conversation")
 def conversation_retrieve(type_id: str, user_id: str):
     bot: Chatbot = Chatbot(
-        database_file="/home/"
-        + PYTHONANYWHERE_USERNAME
-        + "/"
-        + PYTHONANYWHERE_WEBAPPNAME
+        database_file=MYDIR
         + "/database/chatbot.db",
         type_id=type_id,
         user_id=user_id,
@@ -58,10 +60,7 @@ def response_for(type_id: str, user_id: str):
     #    return jsonify('/response_for request must have content_type == application/json')
 
     bot: Chatbot = Chatbot(
-        database_file="/home/"
-        + PYTHONANYWHERE_USERNAME
-        + "/"
-        + PYTHONANYWHERE_WEBAPPNAME
+        database_file=MYDIR
         + "/database/chatbot.db",
         type_id=type_id,
         user_id=user_id,
@@ -77,10 +76,7 @@ def response_for(type_id: str, user_id: str):
 @app.route("/<type_id>/<user_id>/reset", methods=["DELETE"])
 def reset(type_id: str, user_id: str):
     bot: Chatbot = Chatbot(
-        database_file="/home/"
-        + PYTHONANYWHERE_USERNAME
-        + "/"
-        + PYTHONANYWHERE_WEBAPPNAME
+        database_file=MYDIR
         + "/database/chatbot.db",
         type_id=type_id,
         user_id=user_id,
