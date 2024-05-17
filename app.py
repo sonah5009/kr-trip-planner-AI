@@ -1,13 +1,7 @@
+# http://127.0.0.1:5000/zhfldk82/795607ba-d790-4acc-8583-4ee1b7bac10c/chat
 from flask import Flask, jsonify, render_template, request
 
 from chatbot.chatbot import Chatbot
-
-# # backend/main.py
-# from fastapi import Depends, FastAPI, HTTPException
-# from pydantic import BaseModel
-# import sqlite3
-# from fastapi.middleware.cors import CORSMiddleware
-# import secrets
 
 PYTHONANYWHERE_USERNAME = "sonahskku"
 PYTHONANYWHERE_WEBAPPNAME = "mysite"
