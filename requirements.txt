@@ -1,3 +1,2 @@
-markdown2
 openai
 pandas

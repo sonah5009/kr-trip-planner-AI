@@ -3,9 +3,7 @@ from flask import Flask, jsonify, render_template, request
 
 from chatbot.chatbot import Chatbot
 
-PYTHONANYWHERE_USERNAME = "sonahskku"
-PYTHONANYWHERE_WEBAPPNAME = "mysite"
-MYDIR = "/Users/sonah/Library/CloudStorage/OneDrive-ZHAW/AI/kr-trip-planner-AI/"
+MYDIR = "/Users/sonah/Library/CloudStorage/OneDrive-ZHAW/AI/kr-trip-planner-AI"
 
 app = Flask(__name__)
 
@@ -81,3 +79,7 @@ def reset(type_id: str, user_id: str):
         "assistant_says": assistant_says_list,
     }
     return jsonify(response)
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
