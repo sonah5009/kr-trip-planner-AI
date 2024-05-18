@@ -1,0 +1,26 @@
+[
+    {
+        "who_says": "system",
+        "says_what": "As a Korean trip planner, write one very short message to use at the beginning of the conversation in English"
+    },
+    {
+        "who_says": "assistant",
+        "says_what": "Welcome to South Korea! Let's plan an unforgettable trip together. 🇰🇷✈️"
+    },
+    {
+        "who_says": "user",
+        "says_what": "I want to travel to seoul, and I want to try local food and the karting as well"
+    },
+    {
+        "who_says": "assistant",
+        "says_what": "Day 1:<br />\n<ul>\n    <li><b>기찻길고기골목 (Railroad Track BBQ Alley)</b> in Seoul</li>\n    <li><b>남대문시장갈치조림골목 (Namdaemun Market Grilled Cutlassfish Alley)</b> in Seoul</li>\n    <li><b>홍대피카소거리 (Hongdae Picasso Street) - Enjoy karting!</b> in Seoul</li>\n</ul>\n\nEnjoy your food adventures and thrilling karting experience in Seoul! 🏎️🍲"
+    },
+    {
+        "who_says": "user",
+        "says_what": "I want to travel for one week"
+    },
+    {
+        "who_says": "assistant",
+        "says_what": "Day 1:<br />\n<ul>\n    <li><b>기찻길고기골목 (Railroad Track BBQ Alley)</b> in Seoul</li>\n    <li><b>남대문시장갈치조림골목 (Namdaemun Market Grilled Cutlassfish Alley)</b> in Seoul</li>\n    <li><b>홍대피카소거리 (Hongdae Picasso Street) - Enjoy karting!</b> in Seoul</li>\n</ul>\n\nDay 2:<br />\n<ul>\n    <li><b>홍대피카소거리 (Hongdae Picasso Street) - Enjoy karting!</b> in Seoul</li>\n    <li><b>삼청동거리 (Samcheong-dong Street) - Explore traditional and modern Seoul</b> in Seoul</li>\n    <li><b>북창동먹자골목 (Bukchang-dong Food Alley)</b> in Seoul</li>\n</ul>\n\nDay 3:<br />\n<ul>\n    <li><b>서울숲은행나무길 (Seoul Forest Ginkgo Tree Road)</b> in Seoul</li>\n    <li><b>청계천 (Cheonggyecheon Stream) - A peaceful urban oasis</b> in Seoul</li>\n    <li><b>명동거리 (Myeongdong Street) - Shopping and street food galore</b> in Seoul</li>\n</ul>\n\nDay 4:<br />\n<ul>\n    <li><b>전포카페거리 (Jeonpo Cafe Street)</b> in Busan</li>\n    <li><b>용리단길 (Yongri-dan Street) - Experience the charm of Busan</b> in Busan</li>\n    <li><b>광안리해수욕장 (Gwangalli Beach) - Relax by the beautiful beach</b> in Busan</li>\n</ul>\n\nDay 5:<br />\n<ul>\n    <li><b>오이도포구해양관광단지 (Oido Maritime Tourism Complex)</b> in Siheung</li>\n    <li><b>오이도포장마차촌 (Oido Food Truck Village)</b> in Siheung</li>\n    <li><b>일산애니골까페촌 (Ilsan Anime Alley) - A quirky and fun experience</b> in Goyang</li>\n</ul>\n\nDay 6:<br />\n<ul>\n    <li><b>수원남문시장푸드트레일러 (Suwon Namun Market Food Trailer Street)</b> in Suwon</li>\n    <li><b>의정부떡볶이골목 (Uijeongbu Spicy Rice Cake Alley)</b> in Uijeongbu</li>\n    <li><b>의정부부대찌개거리 (Uijeongbu Army Stew Alley)</b> in Uijeongbu</li>\n</ul>\n\nDay 7:<br />\n<ul>\n    <li><b>안산곱창골목 (Ansan Intestine Alley)</b> in Ansan</li>\n    <li><b>화서역먹거리촌 (Hwaseo Station Food Village)</b> in Suwon</li>\n    <li><b>방배역먹자골목 (Bangbae Station Food Alley)</b> in Seoul</li>\n</ul>\n\nEnjoy your week-long adventure in South Korea filled with delicious food, thrilling adventures, and unforgettable experiences! 🇰🇷🍽️🎢"
+    }
+]
