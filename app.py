@@ -4,6 +4,9 @@ from flask import Flask, jsonify, render_template, request
 from chatbot.chatbot import Chatbot
 
 MYDIR = "/Users/sonah/Library/CloudStorage/OneDrive-ZHAW/AI/kr-trip-planner-AI"
+DBPATH = "database"
+DBPATH = "submission"
+DBFILE = "chatbot_v5.db"
 
 app = Flask(__name__)
 
@@ -22,7 +25,7 @@ def chatbot(type_id: str, user_id: str):
 def info_retrieve(type_id: str, user_id: str):
     bot: Chatbot = Chatbot(
         database_file=MYDIR
-        + "/database/chatbot.db",
+        + "/" + DBPATH + "/" + DBFILE,
         type_id=type_id,
         user_id=user_id,
     )
@@ -34,7 +37,7 @@ def info_retrieve(type_id: str, user_id: str):
 def conversation_retrieve(type_id: str, user_id: str):
     bot: Chatbot = Chatbot(
         database_file=MYDIR
-        + "/database/chatbot.db",
+        + "/" + DBPATH + "/" + DBFILE,
         type_id=type_id,
         user_id=user_id,
     )
@@ -53,7 +56,7 @@ def response_for(type_id: str, user_id: str):
 
     bot: Chatbot = Chatbot(
         database_file=MYDIR
-        + "/database/chatbot.db",
+        + "/" + DBPATH + "/" + DBFILE,
         type_id=type_id,
         user_id=user_id,
     )
@@ -69,7 +72,7 @@ def response_for(type_id: str, user_id: str):
 def reset(type_id: str, user_id: str):
     bot: Chatbot = Chatbot(
         database_file=MYDIR
-        + "/database/chatbot.db",
+        + "/" + DBPATH + "/" + DBFILE,
         type_id=type_id,
         user_id=user_id,
     )

@@ -28,7 +28,7 @@ def export_user_data_to_json(user_id: str, db_path: str, output_json_path: str) 
 
 
 # 함수 호출 예시
-user_id = 'c5c57b73-2c5f-42e0-b325-c66ab72091e3'
-db_path = './database/chatbot.db'  # 데이터베이스 파일 경로
+user_id = "b51c6482-ee04-4293-9f70-fb3b4d358aa1"
+db_path = './submission/chatbot_v5.db'  # 데이터베이스 파일 경로
 output_json_path = 'survey_data.json'  # 출력 JSON 파일 경로
 export_user_data_to_json(user_id, db_path, output_json_path)
